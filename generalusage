@@ -1,0 +1,2 @@
+//login to the system psql 
+    sudo su - postgres
