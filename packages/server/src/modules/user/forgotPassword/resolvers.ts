@@ -7,7 +7,7 @@ import { createForgotPasswordLink } from "../../../utils/createForgotPasswordLin
 import { User } from "../../../entity/User";
 import { userNotFoundError, expiredKeyError } from "./errorMessages";
 import { forgotPasswordPrefix } from "../../../constants";
-import { registerPasswordValidation } from "../../../yupSchemas";
+import { registerPasswordValidation } from "@abb/common";
 import { formatYupError } from "../../../utils/formatYupError";
 
 // 20 minutes
