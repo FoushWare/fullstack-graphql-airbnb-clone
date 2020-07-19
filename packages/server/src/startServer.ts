@@ -5,6 +5,7 @@ import * as session from "express-session";
 import * as connectRedis from "connect-redis";
 import * as RateLimit from "express-rate-limit";
 import * as RateLimitRedisStore from "rate-limit-redis";
+// require("dotenv-safe").config({ allowEmptyValues: true});
 
 import { redis } from "./redis";
 import { createTypeormConn } from "./utils/createTypeormConn";
