@@ -7,3 +7,4 @@ temp/
 dump.rdb
 .env
 dist
+.env.prod
